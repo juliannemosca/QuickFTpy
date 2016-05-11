@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="src" displayName="src" projectFiles="true">
+      <itemPath>src/base64.c</itemPath>
+      <itemPath>src/base64.h</itemPath>
+      <itemPath>src/client.c</itemPath>
+      <itemPath>src/client.h</itemPath>
+      <itemPath>src/file.c</itemPath>
+      <itemPath>src/file.h</itemPath>
+      <itemPath>src/gz.c</itemPath>
+      <itemPath>src/gz.h</itemPath>
+      <itemPath>src/list.c</itemPath>
+      <itemPath>src/list.h</itemPath>
+      <itemPath>src/logger.c</itemPath>
+      <itemPath>src/logger.h</itemPath>
+      <itemPath>src/macros.h</itemPath>
+      <itemPath>src/message.c</itemPath>
+      <itemPath>src/message.h</itemPath>
+      <itemPath>src/mutex.c</itemPath>
+      <itemPath>src/mutex.h</itemPath>
+      <itemPath>src/process.c</itemPath>
+      <itemPath>src/process.h</itemPath>
+      <itemPath>src/py.c</itemPath>
+      <itemPath>src/py.h</itemPath>
+      <itemPath>src/quickft.h</itemPath>
+      <itemPath>src/results.h</itemPath>
+      <itemPath>src/server.c</itemPath>
+      <itemPath>src/server.h</itemPath>
+      <itemPath>src/socket.c</itemPath>
+      <itemPath>src/socket.h</itemPath>
+      <itemPath>src/string.c</itemPath>
+      <itemPath>src/string.h</itemPath>
+      <itemPath>src/thread.c</itemPath>
+      <itemPath>src/thread.h</itemPath>
+      <itemPath>src/time.c</itemPath>
+      <itemPath>src/time.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>src</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="2">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/quickftpy.${CND_DLIB_EXT}</output>
+          <commandLine>-lpthread -lz -lm -lpython2.7</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="src/base64.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/base64.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/client.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/file.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/file.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/gz.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/gz.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/list.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/list.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/logger.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/logger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/macros.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/message.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/message.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/mutex.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/mutex.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/process.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/process.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/py.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/py.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/quickft.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/results.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/server.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/server.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/socket.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/socket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/string.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/string.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/thread.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/time.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/time.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="2">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/quickftpy.${CND_DLIB_EXT}</output>
+          <commandLine>-lpthread -lz -lm -lpython2.7</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="src/base64.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/base64.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/client.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/file.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/file.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/gz.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/gz.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/list.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/list.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/logger.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/logger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/macros.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/message.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/message.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/mutex.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/mutex.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/process.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/process.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/py.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/py.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/quickft.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/results.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/server.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/server.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/socket.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/socket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/string.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/string.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/thread.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/time.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/time.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
